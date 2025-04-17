@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishi's Personal Website</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #0077cc;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #0077cc;
+      color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Rishi's World</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Rishi, a passionate learner exploring AI, tech, and creativity. Welcome to my digital space!</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Website Development</li>
+      <li>AI Tool Guidance</li>
+      <li>SQL DBA Support</li>
+      <li>Content Creation</li>
+    </ul>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <p>Coming soon: Thoughts, guides, and stories about tech, spirituality, and more.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: rishi@example.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rishi. All rights reserved.</p>
+  </footer>
+</body>
+</html>
